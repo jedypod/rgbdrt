@@ -1,7 +1,7 @@
 set cut_paste_input [stack 0]
 push $cut_paste_input
 Group {
- name rgbDT
+ name rgbDRT
  addUserKnob {20 Params}
  addUserKnob {41 gamut l "input gamut" T InGamut_to_XYZ.gamut}
  addUserKnob {41 Lp T ToneScale.Lp}
